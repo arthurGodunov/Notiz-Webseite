@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website</title>
+    <link rel="stylesheet" href="/css/testsite.css">
+</head>
+
+<body>
+    <div class="noteMenu hidden">
+        <div class="left">
+            <button class="back">←</button>
+            <input class="rename titleInput" type="text" placeholder="Ahlelele Ahlelas..." maxlength="10">
+        </div>
+
+        <div class="center">
+            <span class="stats">
+                Wörter: <span id="wordCount">0</span> ·
+                Zeichen: <span id="charCount">0</span>
+            </span>
+        </div>
+
+        <div class="right">
+            <button class="mark" title="Markieren">⭐</button>
+            <button class="delete" title="Löschen">🗑️</button>
+            <button class="save" title="Speichern">💾</button>
+        </div>
+    </div>
+
+    <h1>Notizen</h1>
+    <h6></h6>
+    <hr>
+    <div class="noteList">
+    </div>
+
+    <div class="menu">
+        <div class="menu-section actions">
+            <button id="newNote" class="menu-btn">
+                <img src="/Pictures/newNote.png">
+                <span>Neu</span>
+            </button>
+
+            <button id="delNote" class="menu-btn danger">
+                <img src="/Pictures/delNote.png">
+                <span>Löschen</span>
+            </button>
+
+            <button id="markNote" class="menu-btn">
+                <img src="/Pictures/markNote.png">
+                <span>Markieren</span>
+            </button>
+        </div>
+        <div class="menu-section filter">
+            <span class="menu-title">Sortieren</span>
+
+            <div class="filter-bar">
+                <input type="radio" name="filter" id="f-updated" value="updated" checked>
+                <label for="f-updated" data-tooltip="Notizen nach ihrem Bearbeitungs datum sortieren">🕒</label>
+
+                <input type="radio" name="filter" id="f-created" value="created">
+                <label for="f-created" data-tooltip="Notizen nach ihrem Alter sortieren (Jung bis Alt)">📅</label>
+
+                <input type="radio" name="filter" id="f-marked" value="marked">
+                <label for="f-marked" data-tooltip="markierte Notizen anzeigen">⭐</label>
+
+                <input type="radio" name="filter" id="f-title" value="title">
+                <label for="f-title" data-tooltip="Notizen nach ihren Namen sortieren">🔤</label>
+
+                <input type="radio" name="filter" id="f-length" value="length">
+                <label for="f-length" data-tooltip="Notizen nach Größe/Länge Sortieren">📏</label>
+            </div>
+        </div>
+        <div class="menu-section search">
+            <span class="menu-title">Suche</span>
+            <input type="text" placeholder="🔍 Notizen durchsuchen..." id="searcher" maxlength="10">
+        </div>
+
+    </div>
+
+    <div class="metaInfo">
+        <span class="state">✓ Alles gespeichert</span>
+    </div>
+    <script type="module" src="/Typescript/testsite.ts"></script>
+</body>
+
+</html>
