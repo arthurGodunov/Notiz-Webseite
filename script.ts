@@ -130,7 +130,7 @@ async function changeSentence() {
 function newNote() {
     const noteObj: note = {
         id: createID(16),
-        title: utils.encode('Note ' + (variables.lastID + 1), variables.TKv, variables.letters),
+        title: utils.encode('Notiz ' + (variables.lastID + 1), variables.TKv, variables.letters),
         text: '',
         createdAt: Date.now(),
         updatedAt: Date.now(),
