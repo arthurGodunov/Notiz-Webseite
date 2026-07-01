@@ -15,7 +15,7 @@ Diese Webanwendung dient dem **Erstellen**, **Bearbeiten** und **Verwalten** von
 4. Lokale Entwicklung mit Live Server (localhost)
 
 ## Screenshots
-- Screenshots
+![Startseite](screenshots/home.png)
 
 ## Was habe ich gelernt?
 - Verbesserter Umgang mit HTML und CSS
