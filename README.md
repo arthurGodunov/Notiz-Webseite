@@ -15,7 +15,11 @@ Diese Webanwendung dient dem **Erstellen**, **Bearbeiten** und **Verwalten** von
 4. Lokale Entwicklung mit Live Server (localhost)
 
 ## Screenshots
+### Startseite
 ![Startseite](screenshots/home.png)
+### Filter
+![filter](screenshots/filter.png)
+### Notiz
 ![Notiz](screenshots/Note.png)
 
 ## Was habe ich gelernt?
