@@ -16,6 +16,7 @@ Diese Webanwendung dient dem **Erstellen**, **Bearbeiten** und **Verwalten** von
 
 ## Screenshots
 ![Startseite](screenshots/home.png)
+![Notiz](screenshots/Note.png)
 
 ## Was habe ich gelernt?
 - Verbesserter Umgang mit HTML und CSS
